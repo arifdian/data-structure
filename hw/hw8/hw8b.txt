@@ -1,0 +1,14 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+HW8B
+I created a method called topSort(). I follow the pseudocode.
+where there is a list of sorted vertices, list of indegrees and
+queue containing eligible vertices. this is the output I got.
+I check my out put with BFS.
+
+BFS:
+A B C D E 
+A,B,C,D,E, 
+

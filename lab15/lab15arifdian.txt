@@ -1,0 +1,14 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+I create a method called myFloyd and basically follows the shortest path 
+algorithm. 
+
+  A   B  C  D E 
+A 0   1  1  2 2  
+B 100 0 100 1 2  
+C 100 2   0 1 1  
+D 100 2 100 0 1  
+E 100 1 100 2 0  
+

@@ -1,0 +1,13 @@
+C343/Summer2017
+Arif Dianprakasa
+arifdian
+
+I created arraylist in tweetcollection and insert tweet objects in them. 
+it involves with so mnay for loops to process strings. However, I get weird 
+results for my check the most tweets method. I spent 6 hours of debugging 
+and still no conclusion. Anyway, this is my best shot.
+my results:
+@markcote873:
+@markcote873: 1
+@EvanSinar: 4
+@Optus62

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b48e432126b7fa0a717fbfcf28d781286c959454">
+        <dex dex="/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dac5e2c3d8e9131643fd9a0a021cbe61e9b3a19f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b1f033c22a308bd5fa69ef10dbe02c46421cfc15">
+        <dex dex="/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_566318a61709ef3f0bba79775524aca22798e00d/classes.dex" />
+    </item>
+
+</items>

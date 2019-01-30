@@ -1,0 +1,62 @@
+C343/Summer 2017
+Homework 4a
+Arif Dianprakasa
+arifdian
+
+Exercise 5.14
+you will lose the average case run time  theta of (log n) because we need to search to
+over the whole part of trees (n times) which defeats the purpose of the tree. 
+because it has the same time complexity of a list big-o of n.
+
+Exercise 5.15 a
+15   15    15       15     15      15       15
+      \     \        \      \      / \    /    \
+      20    20       20     20    5  20  5     20
+	     \       / \    / \     / \   \    / \
+	     25     18 25  18 25   18 25   7  18  25
+	                   /       /          /
+	                  16      16         16
+
+Exercise 5.15 b
+Pre-order : 15-5-7-20-18-16-25
+In-order  : 5-7-15-16-18-20-25
+Post-order: 7-5-16-18-25-20-15
+
+Exercise 5.24
+In a max heap, the parent is always greater or equal to its children. 
+therefore, the smallest element must be a leaf.
+
+Exercise 5.32
+a) Inserting into normal array(5) will make the array sorted.
+Since, we are inserting the values in sorted order which takes O(1)
+The array is already sorted hence making the time complexity
+down to  O(log n). ANS = 5
+
+b) Since the searches are very minimal(as less as 10). it is possible for up to O(n) 
+for searching but this results in large insertions. it takes O(log n) for insertion 
+array based list of unsorted records takes O(1) time per insertion and O(n) time per search. ANS = 5
+
+c) number of insertions and searches are equal, it would be best if both of these 
+operations takes O(log n) rather than operations taking O(n). log n grows faster 
+than n. hence, BST would be the best option. ANS = 3
+
+d) number of searches is a million best one to use is binary search (O(log n)), 
+that is 3 and 4 by considering the insertion. for sorted array, it requires O(n) 
+for insertion while bst requires only O(log n).ANS = 3.
+
+
+Written Excercise:
+  	         
+A = 0    (1)
+G = 1 0  (2)
+T = 1 1 0(3)
+C = 1 1 1(3)	
+
+for a DNA sequence the fixd-length encoding it takes 2N bits
+uncompressed size = 2N	
+A: 50% N * 1 = 0.5N
+G: 35% N * 2 = 0.7N
+T: 10% N * 3 = 0.3N
+C: 5%  N * 3 = 0.15N
+compressed size = 0.5N + 0.7N + 0.3N + 0.15N = 1.65N
+compressed ratio = 2/1.65 = 1.212

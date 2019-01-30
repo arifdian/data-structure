@@ -1,0 +1,23 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+partner: wang Jiebo
+
+Hw 9
+total nodes: 7
+total edges: 6
+2 4 1 7 6 3 5
+
+I and wang jiebo have started working since yesterday. Since we are not
+too sure of the topological sort that we did in hw8. We had been trying our 
+best since 4pm today and it has been 7 hours. we finally manage to work 
+together to get our topological order correctly. we also attempted to get
+the weight of our node to node connection based on the txt file given.
+our plan is to add the weight to our nodes as we go through the path and
+for each respective path compare the total weight and get the most and
+it's path. Too bad, we fail to get the longest path after several hours after
+debugging. However, we get each weight of the node. In terms of work, Arif
+does more on testing code and giving some idea while Jiebo create code and 
+also contribute to different ideas.I hope for your leniency and understanding 
+that this homework is challenging compared to others.  

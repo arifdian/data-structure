@@ -1,0 +1,9 @@
+C343/Summer2017
+Arif Dianprakasa
+arifdian
+
+Lab10
+
+In this lab, I run the files from FloodIt and resulted in 15 by 15 blocks of 
+colored square. I realized that the implementation is wrong since the flood 
+method inside floodfunction is not created yet.

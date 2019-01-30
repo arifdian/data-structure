@@ -1,0 +1,25 @@
+C343/Summer2017
+Arif Dianprakasa
+arifdian
+
+The ADT for a 2-dimensional array containing integer is defined as
+array[i][j] where i and j are integers. i is defined as the position
+of the integer in ascending order. j is defined as "0" or "1", for 
+which "0" implies an even integer and "1" implies and odd integer.
+The array is sized 5 at default and may change as new integer can 
+be added/populated inside the array. 
+
+Function that we can do with the 2D array defined above:
+• Insert a new integer at a particular position in the array(i).
+• Return null if the array is empty.
+• Tell the number of integers inside the array.
+• Tell if an integer in a particular position is even or odd.
+• sort the array in ascending order according to integer.
+
+For Question 4) I failed to run the emulator which is required to do. Hence,
+I cannot draw a conclusion on what size of array is the limit before the
+message "Out of memory" appears. however, i manage to do it with my main 
+method and get a maximum size of 710000000 - 720000000.
+
+
+

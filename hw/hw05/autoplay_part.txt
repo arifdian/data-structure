@@ -1,0 +1,65 @@
+public List<Coord> wholeList(){
+       List<Coord> floodList2 = new LinkedList<Coord>();
+        for(int i =0;i <14;i++){
+            for(int j=0;j<14;j++){
+
+                floodList2.add(new Coord(i,j));
+            }
+        }
+        return floodList2;
+    }
+
+
+    public int maxColor1(List<Coord> alist){
+        ArrayList<Integer> numList = new ArrayList<>();
+        int blueColor = 0;
+        int pinkColor =0;
+        int greenColor=0;
+        int yellowColor=0;
+        int redColor=0;
+        int cyanColor=0;
+        int maxNum = -99;
+        int maxNumIndices = 0;
+
+        for(Coord c :alist )
+        {
+            if (driver.getColor(c)==0){
+                blueColor = blueColor +1;
+
+            }
+            else if (driver.getColor(c)==1){
+                pinkColor=pinkColor+1;
+            }
+            else if ( (driver.getColor(c)==2)){
+                greenColor= greenColor+1;
+            }
+            else if ( (driver.getColor(c)==3)){
+                yellowColor = yellowColor+1;
+            }
+            else if ( (driver.getColor(c)==4)){
+                redColor = redColor+1;
+            }
+            else if ( (driver.getColor(c)==5)){
+                cyanColor =cyanColor+1;
+            }
+        }
+
+
+
+            numList.add(blueColor);
+            numList.add(pinkColor);
+            numList.add(greenColor);
+            numList.add(yellowColor);
+            numList.add(redColor);
+            numList.add(cyanColor);
+            for (int i = 0; i < numList.size(); i++) {
+
+                if (numList.get(i) > maxNum) {
+                    maxNum = numList.get(i);
+                    maxNumIndices = i;
+                }
+                i++;
+            }
+            return maxNumIndices;
+        }
+

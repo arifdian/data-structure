@@ -1,0 +1,25 @@
+C343/Summer2017
+Lab04
+Arif Dianprakasa
+arifdian
+
+I created an interface called CardSet.java which contains methods like
+initialize and drawRandomCard. I then created MyCardset.java which has 
+a constructor for deck, rank and suits. I created the method referred 
+from the interface. this is my output:
+3D
+JH
+AH
+
+For part b, I created a Tweet class which had constructor of author and content.
+I also created 2 method called contains and print. this is my output:
+lalal
+heifuwgerurhoruhg
+ajex
+hehehehehhe
+baba
+lololololol
+
+For both part, I fail to call them inside the MyGLsurfaceview because my emulator somehow
+stops running today. It just takes too long to load. However, I tested it with main method and
+it works fine to give those output above. 

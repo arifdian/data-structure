@@ -1,0 +1,19 @@
+C343/Summer2017
+Arif Dianprakasa
+arifdian
+Teammate: Jiebo Wang
+
+lab 11
+For flood it game, there are 2 suggested solution recursive and non-recursive.
+the first method that I attempted uses non-recursive method by using while
+loop and for loop. During the while and for loop, the color is assumed
+to be stored in a list and comparison is made every loop, but the difference 
+is that in for loop it is iterrative and in while loop it is not. With, these
+being said for loop is less convenient sue to the fact that it is iterrative
+and when working with linkedlist adding and copying from the list at the same
+time is not possible. However, back to the question again, recursive can also 
+be done in iterrative manner. The recursive function is to exhaust all the 
+possible boundaries which is up, down, left and right. The recursive style 
+will be slightly faster due to the fact that no memory needs to be recalled
+and it has a solid base case to function instead of looping for all different
+possibilities. 

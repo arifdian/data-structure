@@ -1,0 +1,29 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+HW7
+
+A) In order to find the minimum value in the list given, given a sorting the
+list at first, would be located at the first index [0] of the list. the time
+complexity would be big-O 0f c where c is a constant.
+
+B) In order to find the maximum value in the list, given sorting the list at 
+first with ascending order, the maximum would be located at the last index of 
+the list which is [length-1]. the time complexity would be big-theta of 
+[length-1] or big-O of c where c is a constant.
+
+C) In order to compute for the mean, the sorting of the list does not matter.
+Hence sorted or unsorted does not change the time complexity because it is
+about the sum and the total number of elements. Therefore, you need to get 
+every element in the list and the time complexity for that is big-O of n.
+
+D) In order to find the median, given that we have to sort the list first,
+the middle value would depend if the length of the list is even or odd. In
+case it's odd, the median would be located at (length+1)/2. In case, it's even
+, the median would be located at length/2 and length/2 + 1. Hence, the time
+complexity would be big-O of nlogn because we need to sort the list.
+
+E) In order to find the mode, given that we have to sort the list first, we 
+have to got through the list and compare the element with another element next
+to it. the time complexity of going through the list takes big-O of n.

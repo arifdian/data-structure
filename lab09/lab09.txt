@@ -1,0 +1,15 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+Lab09
+
+Today, the lab is about figuring the kth smallest element in a sorted BST. In which I created a method called 
+select where I used recursion to traverse through the sorted tree. I am successful in getting 2nd and 3rd smallest
+but I failed to get the ends 1st for some reason. I have tried debugging for 5 hours but to no avail.
+this is the result i get:
+37(7) 24(3) 7(2) 2(1) 42(3) 40(1) 120(1) 
+1
+3rd smallest = 24
+kth value not found in tree
+

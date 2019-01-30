@@ -1,0 +1,14 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+HW4B
+I am given BinNode class, HuffTree class and MinHeap class. My task is to implement a build code method
+that would traverse to the Huff tree to find a leaf node that has a value of an alphabet. The key for the 
+given alphabet is made up of the path that you traverse in order to get the leaf node. every left traverse 
+is coded by "0" and every right traverse is coded by "1". I understand how to insert a leaf node and it's
+code into dictionary using put() method. However, I failed to repeat the steps for another leaf node /
+consecutive leaf node. I have been trying to figure out ways using loops or while for 5 hours but unfortunately,
+I did not get the encoded message which uses the buildCodeTable method defined. I only managed to get the helper
+function buildCode() completed. I get to the decoding method successfully as it prints out the 
+message = 0110111111011001110111101 decodes into ELMDUCK.

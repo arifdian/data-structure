@@ -1,0 +1,25 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+HW6a
+
+I created a class called editham.java which has a scanner for reading input
+of DNA of strings. I tried to import fileReader to read txt file but to no
+avail. I created a hamDNA method to calculate the hamming distance and created
+editDNA to calculate the edit distance between 2 DNA. I use 2 dimensional array
+to store my counting and use a couple of for loops to go through both list one
+at a time. I instatiated my method in main and and print out the result:
+
+1st dna: 
+ATCGGCTAGGCTGATTCAGA
+2nd dna: 
+TATTTTCCCCGGGAAATTTT
+
+       
+ATCGGCTAGGCTGATTCAGA
+TATTTTCCCCGGGAAATTTT
+       
+Hamming distance: 18
+edit distance: 14
+

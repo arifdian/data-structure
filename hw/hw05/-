@@ -1,0 +1,155 @@
+package FloodIt;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class FloodFunction {
+    private Driver driver;
+    //here floodList is declared as a LinkedList
+    //it is declared as public (a bad practice), but it is needed by the Driver class
+    public List<Coord> floodList = new LinkedList<Coord>();
+
+
+    //constructor  
+    public FloodFunction(Driver newDriver) {
+        driver = newDriver;
+        //when the game starts, only the cell at the left/top corner is filled
+        floodList.add(new Coord(0, 0));
+    }
+    
+    //flood function is to be implemented by students
+    public void flood(int colorToFlood) {
+        int i = 0;
+        while (i < floodList.size()) {
+            Coord c = floodList.get(i);
+            Coord up = up(c);
+            Coord left = left(c);
+            Coord right = right(c);
+            Coord down = down(c);
+
+            if (inbound(down)  && floodList.contains(down) == false&& (colorToFlood == driver.getColor(down))) {
+                floodList.add(down);
+
+            } else if (inbound(left)  && floodList.contains(left) == false&& (colorToFlood == driver.getColor(left))) {
+                floodList.add(left);
+
+            } else if (inbound(right)  && floodList.contains(right) == false&& (colorToFlood== driver.getColor(right))) {
+                floodList.add(right);
+
+            } else if (inbound(up)  && floodList.contains(up) == false&& (colorToFlood == driver.getColor(up))) {
+                floodList.add(up);
+
+            }
+
+
+            i++;
+        }
+        System.out.println(wholeList());
+        System.out.println(driver.getColor(wholeList().get(2)));
+        System.out.println( wholeList().size());
+        System.out.println( maxColor1(wholeList()));
+
+
+
+
+
+    }
+    public List<Coord> wholeList(){
+       List<Coord> floodList2 = new LinkedList<Coord>();
+        for(int i =0;i <14;i++){
+            for(int j=0;j<14;j++){
+
+                floodList2.add(new Coord(i,j));
+            }
+        }
+        return floodList2;
+    }
+
+
+    public int maxColor1(List<Coord> alist){
+        ArrayList<Integer> numList = new ArrayList<>();
+        int blueColor = 0;
+        int pinkColor =0;
+        int greenColor=0;
+        int yellowColor=0;
+        int redColor=0;
+        int cyanColor=0;
+        int maxNum = -99;
+        int maxNumIndices = 0;
+
+        for(Coord c :alist )
+        {
+            if (driver.getColor(c)==0){
+                blueColor = blueColor +1;
+
+            }
+            else if (driver.getColor(c)==1){
+                pinkColor=pinkColor+1;
+            }
+            else if ( (driver.getColor(c)==2)){
+                greenColor= greenColor+1;
+            }
+            else if ( (driver.getColor(c)==3)){
+                yellowColor = yellowColor+1;
+            }
+            else if ( (driver.getColor(c)==4)){
+                redColor = redColor+1;
+            }
+            else if ( (driver.getColor(c)==5)){
+                cyanColor =cyanColor+1;
+            }
+        }
+
+
+
+            numList.add(blueColor);
+            numList.add(pinkColor);
+            numList.add(greenColor);
+            numList.add(yellowColor);
+            numList.add(redColor);
+            numList.add(cyanColor);
+            for (int i = 0; i < numList.size(); i++) {
+
+                if (numList.get(i) > maxNum) {
+                    maxNum = numList.get(i);
+                    maxNumIndices = i;
+                }
+                i++;
+            }
+            return maxNumIndices;
+        }
+
+
+
+
+    //is input cell (specified by coord) on the board?
+    public boolean inbound(final Coord coord) {
+        final int x = coord.x;
+        final int y = coord.y;
+        final int size = this.driver.size;
+        return x > -1 && x < size && y > -1 && y < size;
+    }
+    //return the coordinate of the cell on the top of the given cell (coord) 
+    public Coord up(final Coord coord) {
+        return new Coord(coord.x, coord.y-1);
+    }
+    //return the coordinate of the cell below the given cell (coord)
+    public Coord down(final Coord coord) {
+        return new Coord(coord.x, coord.y+1);
+    }
+    //return the coordinate of the cell to the left of the given cell (coord)
+    public Coord left(final Coord coord) {
+        return new Coord(coord.x-1, coord.y);
+    }
+    //return the coordinate of the cell to the right of the given cell (coord)
+    public Coord right(final Coord coord) {
+        return new Coord(coord.x + 1, coord.y);
+    }
+    //get the color of a cell (coord)
+    public int colorOfCoord(final Coord coord) {
+        return this.driver.getColor(coord);
+    }
+}
+

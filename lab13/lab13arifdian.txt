@@ -1,0 +1,13 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+Lab 13
+I created walk2 method that traverse and track the number of nodes through.
+
+Output:
+Component 0 contains 3 nodes
+Component 1 contains 1 node
+Component 2 contains 1 node
+Total Components: 3
+

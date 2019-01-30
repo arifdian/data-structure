@@ -1,0 +1,66 @@
+C343/Summer 2017
+lab Mini-Assignmnet 03
+Arif Dianprakasa
+arifdian
+
+Lab02 findings
+C343 Lab 02 ---------------------------------- 
+12-31 19:59:49.530 2743-2743/com.example.android.opengl I/System.out: C343 Lab 02 ---------------------------------- 
+12-31 19:59:49.590 2743-2743/com.example.android.opengl D/dalvikvm: GC_FOR_ALLOC freed 512K, 21% free 2577K/3244K, paused 49ms, total 50ms
+12-31 19:59:49.590 2743-2743/com.example.android.opengl I/System.out: 0-->java.version
+12-31 19:59:49.610 2743-2743/com.example.android.opengl I/System.out: The Android Project-->java.vendor
+12-31 19:59:49.610 2743-2743/com.example.android.opengl I/System.out: http://www.android.com/-->java.vendor.url
+12-31 19:59:49.630 2743-2743/com.example.android.opengl I/System.out: /system-->java.home
+12-31 19:59:49.640 2743-2743/com.example.android.opengl I/System.out: 0.9-->java.vm.specification.version
+12-31 19:59:49.640 2743-2743/com.example.android.opengl I/System.out: The Android Project-->java.vm.specification.vendor
+12-31 19:59:49.650 2743-2743/com.example.android.opengl I/System.out: Dalvik Virtual Machine Specification-->java.vm.specification.name
+12-31 19:59:49.650 2743-2743/com.example.android.opengl I/System.out: 1.6.0-->java.vm.version
+12-31 19:59:49.660 2743-2743/com.example.android.opengl I/System.out: The Android Project-->java.vm.vendor
+12-31 19:59:49.670 2743-2743/com.example.android.opengl I/System.out: Dalvik-->java.vm.name 
+12-31 19:59:49.680 2743-2743/com.example.android.opengl I/System.out: 0.9-->java.specification.version
+12-31 19:59:49.690 2743-2743/com.example.android.opengl I/System.out: The Android Project-->java.specification.vendor
+12-31 19:59:49.700 2743-2743/com.example.android.opengl I/System.out: Dalvik Core Library-->java.specification.name
+12-31 19:59:49.710 2743-2743/com.example.android.opengl I/System.out: 50.0-->java.class.version
+12-31 19:59:49.710 2743-2743/com.example.android.opengl I/System.out: .-->java.class.path
+12-31 19:59:49.720 2743-2743/com.example.android.opengl I/System.out: /vendor/lib:/system/lib-->java.library.path
+12-31 19:59:49.720 2743-2743/com.example.android.opengl I/System.out: /data/data/com.example.android.opengl/cache-->java.io.tmpdir
+12-31 19:59:49.730 2743-2743/com.example.android.opengl I/System.out: -->java.compiler
+12-31 19:59:49.730 2743-2743/com.example.android.opengl I/System.out: -->java.ext.dirs
+12-31 19:59:49.750 2743-2743/com.example.android.opengl I/System.out: Linux-->os.name
+12-31 19:59:49.750 2743-2743/com.example.android.opengl I/System.out: armv7l-->os.arch
+12-31 19:59:49.760 2743-2743/com.example.android.opengl I/System.out: 3.10.0+-->os.version
+12-31 19:59:49.760 2743-2743/com.example.android.opengl I/System.out: /-->file.separator
+12-31 19:59:49.780 2743-2743/com.example.android.opengl I/System.out: :-->path.separator
+12-31 19:59:49.820 2743-2743/com.example.android.opengl I/System.out: -->line.separator
+12-31 19:59:49.830 2743-2743/com.example.android.opengl I/System.out: -->user.name
+12-31 19:59:49.830 2743-2743/com.example.android.opengl I/System.out: -->user.home
+12-31 19:59:49.840 2743-2743/com.example.android.opengl I/System.out: /-->user.dir
+12-31 19:59:49.840 2743-2743/com.example.android.opengl I/System.out: C343 Lab 02 ---------------------------------- The Android Project
+12-31 19:27:00.000 2473-2473/com.example.android.opengl I/System.out: Dalvik
+12-31 19:27:00.000 2473-2473/com.example.android.opengl I/System.out: 0.9
+12-31 19:27:00.010 2473-2473/com.example.android.opengl I/System.out: The Android Project
+12-31 19:27:00.010 2473-2473/com.example.android.opengl I/System.out: Dalvik Core Library
+12-31 19:27:00.020 2473-2473/com.example.android.opengl I/System.out: 50.0
+12-31 19:27:00.020 2473-2473/com.example.android.opengl I/System.out: .
+12-31 19:27:00.030 2473-2473/com.example.android.opengl I/System.out: /vendor/lib:/system/lib
+12-31 19:27:00.040 2473-2473/com.example.android.opengl I/System.out: /data/data/com.example.android.opengl/cache
+12-31 19:27:00.060 2473-2473/com.example.android.opengl I/System.out: Linux
+12-31 19:27:00.070 2473-2473/com.example.android.opengl I/System.out: armv7l
+12-31 19:27:00.080 2473-2473/com.example.android.opengl I/System.out: 3.10.0+
+12-31 19:27:00.090 2473-2473/com.example.android.opengl I/System.out: /
+12-31 19:27:00.090 2473-2473/com.example.android.opengl I/System.out: :
+12-31 19:27:00.130 2473-2473/com.example.android.opengl I/System.out: /
+
+the empty ones: java.compiler	java.ext.dirs	line.separator user.name user.home
+
+lab03--> class Student
+
+Student Information
+Name: evans
+Department: music
+Student Information
+Name: danny
+Department: Physics
+Student Information
+Name: kevin
+Department: security

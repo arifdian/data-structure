@@ -1,0 +1,10 @@
+C343 / Summer2017
+Lab Mini-Assignment 01
+Arif Dianprakasa
+arifdian
+
+I login to github and create new repositories named C343arifdian under the organization
+C343 Summer 2017. set up the git origin folder to where your folder in your own computer 
+to be transferred / push to your repositories. After that, you work on the android studio 
+and txt file and transfer them to the origin folder and follow the process of add, commit
+and push. 

@@ -1,0 +1,23 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+I created a class called hashSearch. I created a textfile called text.txt containing
+the link of the paragraph that needs to be processed.
+
+I used while loop to check if every line is empty and for every line checks if
+the word algorithm or data is present.
+
+if the target word is present add the line number to linkedlist defined in hash,
+else nothing is added.
+
+After the hash table is filled out completely with regards to completely reading the 
+text.txt file.
+
+check if the hash table contains the target word(key), if it is, print the line number list which 
+is the values with respect to the key. else, print the word is not found in the file.
+
+this is the output I obtain.
+Word algorithm is not found in this document.
+Word data is found on lines: [3, 5, 6, 9, 11, 15, 17, 19]
+

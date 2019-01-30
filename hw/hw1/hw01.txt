@@ -1,0 +1,59 @@
+C343/Summer2017
+Homework01
+Arif Dianprakasa
+arifdian
+
+Part A
+I create a class and a function inside it for hemming process.
+I use a combination of for loops and if statement to check if the alphabet
+is identical.
+I also use the string class to check strings thorugh their position.
+I instantiate the hemming class in MYGLsurfaceview.java
+I printed out the outputs to compare for every 2 DNA strands.
+
+Part B
+3.12
+a) 2 instructions. O(2) = O(c)= θ(c)
+   where c is a positive constant and c=2 in this case.
+
+b)3 * n = 3n instructions.
+  T(n) = O(3n) = O(cn) = θ(n)
+  since c is positive constant and c = 3 in this case.
+
+c) n*n is calculated first before i<n.
+   hence, i<n^2. total instructions = n*n = n^2
+   T(n) = O(n^2) = θ(n^2).
+
+d) if you count the loop. you will see that it is the same as
+   for(i=0; i<n-1; i++)
+   	for(j=1; j<n; j++)
+    hence, total instructions = (n-1)(n-1) = n^2 - 2n + 1
+    n^2 would be the largest growing.
+    T(n) = O(n^2) = θ(n^2).
+
+e) for(i=1; i<=n; i++) --> n-1 instructions
+     for(j=1; j<=n; j*=2)
+      i=1 j=1 2^0
+      i=2 j=2 2^1
+      i=3 j=4 2^2
+     Hence growing at log n instructions.
+     since the inverse of 2^n is logn/log2.
+     where 1/log2 can be taken as c, a positive constant.
+     n^2 logn grows faster than nlogn     
+     T(n) = O(nlogn) = θ(nlogn).
+
+
+f) the same as e) just the loop swtiched around
+   hence T(n) = O(nlogn) = θ(nlogn).
+
+g) 2 for loop instructions = n*n = n^2
+   sort takes nlogn.
+   Total instructions = n^2 + nlogn
+   n^2  grows faster than nlogn
+   Hence, T(n) = O(n^2) = θ(n^2).
+
+h) Permutation of randomw values means
+   possibility from 0 to n-1. The worst case
+   possible is from 1 to n.
+   that means the total instruction = n*n= n^2.
+   hence, T(n) = O(n^2) = θ(n^2).   

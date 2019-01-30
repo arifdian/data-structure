@@ -1,0 +1,8 @@
+C343/Summer2017
+Arif Dianprakasa
+arifdian
+
+I create a class called run times and create a method for exmaples to each one
+respectively. For each method, I created a counter that tracks how many times 
+the program loops through the system for n number of times a variable is to determine the loops. 
+

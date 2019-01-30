@@ -1,0 +1,41 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+HW2
+
+3.3) Slowest to fastest.
+     since 2 is constant, it has to be the slowest.
+     
+     (log base 3)of n is almost similar in growth with (log base 2) of n.
+     but, I would say log base 3 is slower due to the fact that the power 
+     quantity is lower due to the fact that 3 needs less power to get to n 
+     compared to 2.
+
+    n^2/3 and 20n would grow faster than the log base 2 of n, due to the fact that it is not 
+    representing the power quantity of a positive number. 20n would be faster than n^2/3 due
+    to the fact that n^1 increases faster compared n^2/3 since 1 > 2/3. Similarly, 4n^2 would
+    also grow faster than 20n.
+
+    Next, we have a tight scale between 3^n and n!, By plotting graphical representation I can
+    see that n! grows faster than 3^n as n increases. the reason behing is due to the fact that
+    the base in n! is constantly changing while 3 in 3^n never change.
+
+   ANS: 2,(log3)n,(log2)n, n^2/3, 20n, 4n^2, 3^n, n!
+
+3.8) a) T(n) = O(n). Since it is cn the upper and lower bound is the same.
+	hence, we can assume c=1 n0 = 0.
+
+     b) Since n^3 grows faster than a constant c3. hence, we can let the c3 be the lower bound.
+	Let c3 = 8 and c2 = 1 --> n^3 + 8, we can see that the lower bound to be 8 in the best
+	case scenario and upper bound to be n^3 because after n=2, n^3 will start to grow 
+	exponentially faster than c3. therefore, I can say the above is true for n0 = 2
+
+     c) since nlogn grows faster than n right from no = 0, hence we can say that the lower bound is
+	n as long as n is positive. nlogn would be the upper bound. All of the conditions can be 
+	satisfied with letting c4=1 and c5=1.
+
+     d) in this problem, 2^n is growing faster than  n^6 after some n0.
+        By letting c6=16 and c7=1 adn n0=2, the upper bound is 2^n and n^6 is the lower bound.
+	the tiebreaker between 2 function is at 64, where n0=2 given c6 and c7 meaning 2^n still 
+	losing in growth compared n^6 for n0<2.

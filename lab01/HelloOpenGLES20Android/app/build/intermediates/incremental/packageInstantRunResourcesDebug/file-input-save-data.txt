@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Tue May 09 16:07:54 EDT 2017
+1.base=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_/res/menu/open_gles20.xml
+2.base=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+count=4
+1.set=ANDROID_RESOURCE
+3.base=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/ic_launcher.png
+0.file=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/res/resources-debug.ap_/resources.arsc

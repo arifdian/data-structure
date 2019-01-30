@@ -1,0 +1,45 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+HW8 TASK A
+1.
+   
+    A  B  C  D  E  F
+----------------------
+A |    1  1        1
+B | 1     1  1 
+C | 1  1        1  1
+D |    1        1
+E |       1  1     1
+F | 1     1     1
+
+2.  Vertex      Adj-List
+  ----------------------------
+      A        [B]->[C]->[F]
+      B        [A]->[C]->[D]
+      C        [A]->[B]->[E]->[F]
+      D        [B]->[E]
+      E        [C]->[D]->[F]
+      F        [A]->[C]->[E]
+
+3. for adj-matrix
+   A,B,C,D,E,F means 6 elements
+   Total = 6 x 6 = 36 byte.
+
+   for adj-list
+   total vertex = 6 x 2 = 12 byte.
+   total pointer  =  6 x 3 x 4 = 72 byte.
+   Total = 72 + 12 = 84 byte.
+   ANS: adj-list requires more space.
+
+4. for adj-matrix
+   Total  = 6 x 6 = 36 byte.
+   
+   for adj-list
+   total vertex = 6 x 1 = 6 byte
+   total pointer = 6 x 3 x 2 = 36  byte
+   Total = 36 + 6 = 42 byte.
+   ANS: adj-list requires more space.
+
+

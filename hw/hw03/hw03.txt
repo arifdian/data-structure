@@ -1,0 +1,16 @@
+C343/Summer2017
+Arif Dianprakasa
+arifdian
+
+In this HW, I created the class contacts.java to establish the structure of
+a contact with first name, last name and email. After that I created a class
+called contactcollection to establish an array structure to contain all my
+list of contacts. inside each class there are methods to be implemented in 
+MYGLsurfaceview class. Here is the result, I obtainned.
+
+C343 hw03 ---------------------------------- 
+Samuel zacharia smzacharia@stgio.com Kevin barambe kbambe@iuindiana.com Harry Redknapp hnapp@spurs.com Donny Lawson dnylawson@ywna.com Gabriel hector ghector@www.com Tuco Salamanca tsalam@DEA.com
+the contacts include: First name: Harry Last name: Redknapp Email: hnapp@spurs.com
+false
+6
+C343 hw03 ---------------------------------

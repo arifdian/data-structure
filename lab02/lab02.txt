@@ -1,0 +1,7 @@
+C343/Summer2017
+Lab Mini-Assignment 02
+Arif Dianprakasa (arifdian)
+
+as I do lab 2, I learn about the GUI of android studio which is learning where
+the output to your execution is and also includes selecting the right emulator
+to run. the result I observed is a string printed out as GGTCGACGCCCAGATTATCT

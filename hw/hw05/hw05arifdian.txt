@@ -1,0 +1,41 @@
+C343/Summer2017
+Arif Dianprakasa
+arifdian
+Teammate: JieBo Wang
+
+hw5
+
+In this lab, I run the files from FloodIt and resulted in 15 by 15 blocks of 
+colored square. I realized that the implementation is wrong since the flood 
+method inside floodfunction is not created yet. to solve our flood method, we
+decide to use a while loop to loop through our linkedlist. During the coding,
+JieBo does the while loop and the linked list in flood method. While I help
+to debug and we figure out that at the first try the for loop does not work 
+because the fact that it is iterrative and do not allow copy and add at the
+same time. JieBo also works on the autoplay and I am responsible for the debug.
+
+On the other hand, Arif also work on the analysis on the time complexity
+since in the while loop, we keep adding 1 to counter i, the time 
+complexity of the program will be O(size) / O(n). we think that the flood()
+efficiency could have been better if recursion was used because the memory 
+requirement is less even though they may have taken the same number of 
+instruction which is lead to the same time complexity, O(n).
+
+In terms of the autoplay, the efficiency of flood() method is O(n^2). since our
+mostcolor method in floodFunction uses another while loop so every turn it 
+search with n instructions and it takes n instruction to flood the tile. where
+n is the size of the list / the size of the tiles.
+
+(we fail to make the auto play run and we stay until late and still did not
+figure it out, we try making a list of number of colors for each color respectively
+but to no avail, we hope to get partial xtra credit for our last ditch effort)
+
+In terms of human play, the efficiecny of flood() method is O(cn). where c
+is a constant for the number of steps human needs to take. where n is where
+n is the size of the list / the size of the tiles. 
+
+In this case the data structure is linked list which is easy for insertion but
+takes O(n) for search and compare. However, I don't think using a tree would
+be suitable for this game but would be more suitable for the autoplay because
+you need to get the maximum number for the particular color. it is impossible
+to use 2 data structure in this game because data inside is communicative.

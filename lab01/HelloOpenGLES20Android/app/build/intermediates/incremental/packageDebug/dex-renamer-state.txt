@@ -1,0 +1,7 @@
+#Tue May 09 16:08:00 EDT 2017
+base.0=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dac5e2c3d8e9131643fd9a0a021cbe61e9b3a19f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_566318a61709ef3f0bba79775524aca22798e00d/classes.dex
+base.1=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_566318a61709ef3f0bba79775524aca22798e00d
+file.0=/Users/arifdian/Downloads/HelloOpenGLES20Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dac5e2c3d8e9131643fd9a0a021cbe61e9b3a19f/classes.dex

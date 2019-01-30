@@ -1,0 +1,21 @@
+C343/Summer 2017
+Arif Dianprakasa
+arifdian
+
+I create a find method in BinNodeJr class and implement it in the main method and give this result:
+I used recursion method to recurse through the left and right of the tree defined.
+40 is found in the tree: true
+100 is found in the tree: false
+70 is found in the tree: true
+
+I create checkBalance method with the helper method of treeHeight and checkBalance2.
+the reason I create checkBalance2 is because in order to recurse through all possibilities
+in the tree, you have to have a boolean as argument. checkBalance is just a method to print
+out unbalanced or balanced message. This is my test result:
+
+Preorder enumeration: key(size-of-the-subtree)
+37(7) 24(3) 7(2) 2(1) 42(3) 40(1) 120(1) 
+Unbalanced
+
+
+
